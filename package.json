@@ -1,0 +1,19 @@
+{
+  "name": "svg-color-loader",
+  "version": "1.0.0",
+  "description": "Recolors svg icons as part of webpack build",
+  "main": "index.js",
+  "dependencies": {
+    "loader-utils": "0.2.x",
+    "mime": "1.2.x",
+    "svgo": "^0.6.6"
+  },
+  "peerDependencies": {
+    "file-loader": "*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mark Porter",
+  "license": "ISC"
+}
